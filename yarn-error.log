@@ -1,0 +1,73 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js test
+
+PATH: 
+  /Users/phaseka/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/phaseka/.fastlane/bin:/Users/phaseka/.rvm/gems/ruby-2.2.7/bin:/Users/phaseka/.rvm/gems/ruby-2.2.7@global/bin:/Users/phaseka/.rvm/rubies/ruby-2.2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/phaseka/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "trapp",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "jest-expo": "~27.0.0",
+      "react-native-scripts": "1.14.0",
+      "react-test-renderer": "16.3.1"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+      "start": "react-native-scripts start",
+      "eject": "react-native-scripts eject",
+      "android": "react-native-scripts android",
+      "ios": "react-native-scripts ios",
+      "test": "jest"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "expo": "^27.0.1",
+      "mongoose": "^5.1.0",
+      "react": "16.3.1",
+      "react-native": "~0.55.2",
+      "react-native-material-textfield": "^0.12.0",
+      "react-native-router-flux": "^3.38.0",
+      "redux": "^4.0.0"
+    },
+    "rnpm": {
+      "assets": [
+        "./assets/fonts/"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c jest
+  Directory: /Users/phaseka/Documents/React/trapp
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
